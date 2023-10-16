@@ -1,0 +1,41 @@
+
+.btnContenedor {
+  display: flex;
+}
+
+.btnPantalla {
+  background-color: whitesmoke;
+  font-size: 18px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 600;
+  width: 7%;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.btnSuma {
+  background: linear-gradient(to right, #0c9181, #85be23);
+  color: #ffffff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0.5rem;
+  font-size: 1rem;
+  width: 3%;
+}
+
+.btnResta {
+  background: linear-gradient(to right, #0c9181, #85be23);
+  color: #ffffff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0.5rem;
+  font-size: 1rem;
+  width: 3%;
+}

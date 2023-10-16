@@ -1,0 +1,17 @@
+
+.div-cart{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;    
+}
+
+.cart{
+    width: 36px;
+    cursor: pointer;    
+}
+
+.contador{
+    font-size: 700;
+    color: whitesmoke;
+}
