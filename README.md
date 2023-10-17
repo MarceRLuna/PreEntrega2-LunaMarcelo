@@ -1,8 +1,21 @@
-# React + Vite
+# Project Title
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Curso de React Js
+Segunda pre-entrega del proyecto final
 
-Currently, two official plugins are available:
+## Authors
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Marcelo Luna
+
+## Documentation
+
+El presente contiene ejercitación para la segunda pre-entrega del proyecto final.
+
+Como ser los siguientes:
+* Creación del catálogo, uso de Promesas y método Map, Filter y Find.
+* Detalle del producto - creación del componente ItemDetailContainer.
+* Implementando navegabilidad usando BrowserRouter.
+
+## Used By
+
+Este proyecto puede ser usado por los alumnos de la comisión 47230 o quién pueda aprovecharlo, para tener guías básicas de cómo abordar los conceptos que en este se intentan transmitir.

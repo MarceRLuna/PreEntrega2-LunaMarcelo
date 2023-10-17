@@ -17,8 +17,8 @@ export const Header = () => {
 
         <nav className="navbar">
            <NavLink className="navbarLink" to="/">Home</NavLink>
-           <NavLink className="navbarLink" to="/categoria/2">Lentes de sol</NavLink>
-           <NavLink className="navbarLink" to="/categoria/4">Lentes de contacto</NavLink>
+           <NavLink className="navbarLink" to="/categoria/1">Lentes de sol</NavLink>
+           <NavLink className="navbarLink" to="/categoria/2">Lentes con aumento</NavLink>
         </nav>
        
         <ShoppingCart />

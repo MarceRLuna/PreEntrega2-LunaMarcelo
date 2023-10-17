@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .header {
   background: rgb(222, 237, 240);
   background: linear-gradient(
@@ -40,6 +42,7 @@
   justify-self: center;
   align-items: center;
   gap: 25px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .navbarLink {

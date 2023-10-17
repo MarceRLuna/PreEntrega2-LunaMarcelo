@@ -1,14 +1,15 @@
 
-// eslint-disable-next-line react/prop-types
-export const ItemDetail = ({id, nombre, precio, img}) => {
+import "./ItemDetail.css";
 
-    return (
-        <div>
-            <h3>Nombre: {nombre}</h3>
-            <p>Precio: $ {precio}</p>
-            <h4>ID: {id}</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quod ipsam? Autem magni hic quaerat quod quibusdam possimus maxime veritatis quas, amet neque quis necessitatibus error ipsam natus quam dolores!</p>
-            <img src={img} alt={nombre} />
-        </div>
-    )
-}
+// eslint-disable-next-line react/prop-types
+export const ItemDetail = ({ id, nombre, precio, img, descripcion }) => {
+  return (
+    <div className="itemDetalle">
+      <h3>{nombre}</h3>
+      <p>Precio: $ {precio}</p>
+      <h4>ID: {id}</h4>
+      <p>Descripción: {descripcion}</p>
+      <img src={img} alt={nombre} />
+    </div>
+  );
+};

@@ -20,14 +20,7 @@ export const ItemListContainer = () => {
         funtion(idCategoria)
             .then(res => setProductos(res))
 
-    }, [idCategoria])
-
-
-    // useEffect ( () => {
-    //     getProductos()
-    //         .then(respuesta => setProductos(respuesta))
-    //         .catch(error => console.log(error))
-    // }, [])
+    }, [idCategoria])  
 
     return (
 

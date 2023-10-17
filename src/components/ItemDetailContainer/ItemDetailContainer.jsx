@@ -5,6 +5,7 @@ import { ItemDetail } from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
 
+
 export const ItemDetailContainer = () => {
 
     const [producto, setProducto] = useState(null);
